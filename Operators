@@ -1,0 +1,54 @@
+public class Operator{
+    public static void main(String[] args) {
+    int  a =555;
+    int b = 542;
+
+    //arithemetic operator
+
+       System.out.println(a);
+       System.out.println(a+b);
+       System.out.println(a-b);
+       System.out.println(a*b);
+       System.out.println(a/b); // a divided by b
+       System.out.println(a%b); // a modulus b
+       // unary operator
+       //++incerement:
+       //--decrement:
+       System.out.println(a);
+       System.out.println(++a); // free increment
+       System.out.println(a++);// post increment
+       System.out.println(a);
+       System.out.println(a);
+       System.out.println(--a);  //decrement
+       System.out.println(a--);
+       System.out.println(a);
+
+
+       //relational operator:
+       System.out.println(a==b);  /// a is equal to b
+       System.out.println(a!=b);  // a is not equal to b
+       System.out.println(a<b);
+       System.out.println(a>b);
+       System.out.println(a<=b);
+       System.out.println(a>=b);
+
+       //conditnal operator
+       // &&:and
+       // ||:or
+       System.out.println(a<b && a>b);
+       System.out.println(a<b || a>b);
+
+       //assignment operator
+       a +=a;
+       a *=a;
+       a -=a;
+       a /=a;
+       a %=a;
+       System.out.println(a);
+    
+  
+  
+  
+  
+    }
+}
