@@ -1,0 +1,58 @@
+// define method :
+//method is a block of code  or collction of statementgrouped together and perform a certain task
+//SYNTAX OF METHOD:
+//Access modifier (Static or non static) return type method name()
+//{
+    //method body
+    //return value;
+//}
+ 
+
+ //program
+ public class Method{
+    static int currentbalance=3000;
+    public static void greetcustomer(){
+        System.out.println("hello,welcome to bank");
+
+    }
+
+    public static int getCurrentbalance() {
+        return currentbalance;
+    }
+    public void deposit(int amount){
+        currentbalance=currentbalance+amount;
+       System.out.println("deposit succesuful");
+    }
+    public void withdrawal( int amount){
+        currentbalance=currentbalance-amount;
+       System.out.println("withdrawal succesuful");
+    
+    }
+    public int getbalance(){
+      return  currentbalance;
+    }
+    public static void main(String[] args) {
+    //create object
+    Method method=new Method();
+    greetcustomer();
+    System.out.println("current balance:"+ method.getcurrentbalance());
+
+    
+
+    method.deposit(555);
+    System.out.println("current balance:"+ method.balance());
+    
+    method.withdrawal(55);
+   System.out.println("current balance:"+ method.currentbalance());
+    }
+ }
+ 
+
+
+
+
+
+
+
+    
+ 
