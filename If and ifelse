@@ -1,0 +1,23 @@
+///syntax 
+///    if(conition){                  if (condition)
+///                                       //statement
+///    
+///    //statement                      }
+///                                     else{
+///                                     //statement
+///
+///                                          }
+///
+///       }
+///    
+public class ifelse1{
+     public static void main(String[] args){
+        int a=55;
+        if(a<0){
+            System.out.println("yes");
+        }
+        else{
+            System.out.println("no");
+                }        
+}  
+}
