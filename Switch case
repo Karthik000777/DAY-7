@@ -1,0 +1,43 @@
+public class conditional1 {
+    public  static void main(String[] args){
+        int i=3;
+        switch(i){
+            case 1:
+            System.out.println("thios is first number");
+            break;
+            case 2:
+            System.out.println("this is second number");
+            break;
+            case 3:
+            System.out.println("this is third number");
+            break;
+            default:
+            System.out.println("this is default");
+            break;
+
+
+            
+        }
+    }
+}
+
+
+
+//       syntax 
+ //    switch(key){
+ //     case value:
+ //       // statements
+ //           break;
+ //      default:
+ //       //statement
+ //           break;
+ // }
+
+
+
+
+
+
+
+
+
